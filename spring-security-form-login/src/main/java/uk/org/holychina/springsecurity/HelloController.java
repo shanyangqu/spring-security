@@ -18,7 +18,7 @@ public class HelloController {
 		model.setViewName("hello");
 		return model;
 
-	}
+	} 
 
 	@RequestMapping(value = "/admin**", method = RequestMethod.GET)
 	public ModelAndView adminPage() {
