@@ -1,0 +1,31 @@
+
+<!-- token-validity-seconds – The expire date of “remember-me” cookie, in 
+	seconds. For example, 1209600 = 2 weeks (14 days), 86400 = 1 day, 18000 = 
+	5 hours.
+	
+	remember-me-parameter – The name of the “check box”. Defaults to 
+	‘_spring_security_remember_me’. 
+	
+	data-source-ref – If this is specified, “Persistent 
+	Token Approach” will be used. Defaults to “Simple Hash-Based Token Approach”. -->
+	
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/spring-security-remember-me" />
+		<property name="username" value="root" />
+		<property name="password" value="2920823" />
+	</bean>
+
+	<bean id="savedRequestAwareAuthenticationSuccessHandler"
+		class="org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler">
+		<property name="targetUrlParameter" value="targetUrl" />
+	</bean>
+	
+</beans>

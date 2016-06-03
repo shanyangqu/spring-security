@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:15 +0100] "GET /spring-security-form-login-annotation HTTP/1.1" 302 - http-bio-8099-exec-1 0
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:18 +0100] "GET /spring-security-form-login-annotation/ HTTP/1.1" 200 132 http-bio-8099-exec-4 3114
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:22 +0100] "GET /spring-security-form-login-annotation/admin HTTP/1.1" 302 - http-bio-8099-exec-5 25
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:23 +0100] "GET /spring-security-form-login-annotation/admin HTTP/1.1" 302 - http-bio-8099-exec-3 9
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:29 +0100] "GET /spring-security-form-login-annotation/login HTTP/1.1" 200 1350 http-bio-8099-exec-7 5501
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:29 +0100] "GET /spring-security-form-login-annotation/login HTTP/1.1" 200 1350 http-bio-8099-exec-6 6638
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:32 +0100] "GET /spring-security-form-login-annotation/login HTTP/1.1" 200 1350 http-bio-8099-exec-8 2809
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:00:36 +0100] "POST /j_spring_security_check HTTP/1.1" 404 - http-bio-8099-exec-10 0
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:06:43 +0100] "GET /spring-security-form-login-annotation/login HTTP/1.1" 200 1434 http-bio-8099-exec-2 1819
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:06:44 +0100] "GET /spring-security-form-login-annotation/login HTTP/1.1" 200 1434 http-bio-8099-exec-3 12
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:06:52 +0100] "GET /spring-security-form-login-annotation/login HTTP/1.1" 200 1434 http-bio-8099-exec-5 7
+0:0:0:0:0:0:0:1 - - [27/May/2016:00:06:59 +0100] "POST /spring-security-form-login-annotation/j_spring_security_check HTTP/1.1" 404 949 http-bio-8099-exec-6 6
