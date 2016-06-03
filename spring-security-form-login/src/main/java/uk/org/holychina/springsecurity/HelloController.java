@@ -27,7 +27,7 @@ public class HelloController {
 		model.addObject("title", "Spring Security Custom Login Form");
 		model.addObject("message", "This is protected page!");
 		model.setViewName("admin");
-
+ 
 		return model;
 
 	}
